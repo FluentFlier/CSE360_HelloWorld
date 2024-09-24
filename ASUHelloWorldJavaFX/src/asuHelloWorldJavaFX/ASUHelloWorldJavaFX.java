@@ -14,6 +14,7 @@ public class ASUHelloWorldJavaFX extends Application {
     }
     
     public void start(Stage primaryStage) {
+    	System.out.println("Anirudh's Second Commit")
     	System.out.println("ASU Hello World!");
     	System.out.println("It started!");
         primaryStage.setTitle("ASU Hello World Spring 2024");
