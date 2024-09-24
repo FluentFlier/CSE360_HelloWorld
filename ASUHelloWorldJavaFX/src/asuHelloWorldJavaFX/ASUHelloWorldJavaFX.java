@@ -14,7 +14,7 @@ public class ASUHelloWorldJavaFX extends Application {
     }
     
     public void start(Stage primaryStage) {
-    	System.out.println("Anirudh's Second Commit")
+    	System.out.println("Anirudh's Second Commit");
     	System.out.println("ASU Hello World!");
     	System.out.println("It started!");
         primaryStage.setTitle("ASU Hello World Spring 2024");
@@ -23,6 +23,7 @@ public class ASUHelloWorldJavaFX extends Application {
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("ASU: Hello World!");
+                System.out.println("Anirudh's Second Commit");
             }
         });
         
