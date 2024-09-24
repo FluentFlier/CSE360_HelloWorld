@@ -34,6 +34,9 @@ public class FiniteStateMachineSystem {
 
 		// Associate the system keyboard with a Scanner object
 		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.print("Anirudh's second commit ");
+		
         System.out.print("Please enter the name of the file containing the Finite State Machine description: ");
         
         String fsmFileName = keyboard.nextLine(); 
